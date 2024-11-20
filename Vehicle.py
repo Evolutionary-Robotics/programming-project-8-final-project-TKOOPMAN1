@@ -68,5 +68,5 @@ class Light:
 
     def __init__(self):
         angle =  np.random.random()*2*np.pi
-        self.xpos = 7.5 #10.0 * np.cos(angle)
-        self.ypos = 7.5 #10.0 * np.sin(angle)
+        self.xpos = 8 #10.0 * np.cos(angle)
+        self.ypos = 8 #10.0 * np.sin(angle)

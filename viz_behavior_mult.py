@@ -17,7 +17,7 @@ lights = Vehicle.Light()
 layers = [2,5,5,2]
 
 # Task Params
-duration = 500
+duration = 250
 stepsize = 0.02    
 noisestd = 0.01 
 

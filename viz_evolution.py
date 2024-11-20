@@ -10,9 +10,9 @@ currentpath = os.getcwd()
 os.chdir(currentpath)
 
 #for i in range(1):
-ev = np.load("evol"+str(1)+".npy")
-wev = np.load("wevol"+str(1)+".npy")
-avev = np.load("avevol"+str(1)+".npy")
+ev = np.load("evol"+str(8)+".npy")
+wev = np.load("wevol"+str(8)+".npy")
+avev = np.load("avevol"+str(8)+".npy")
 plt.plot(ev)
 plt.plot(wev)
 plt.plot(avev)
